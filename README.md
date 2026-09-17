@@ -47,15 +47,20 @@ hello_cmake/
 
 ## 构建步骤
 
-在仓库根目录下执行：
+在仓库根目录下执行以下构建命令：
 
 ```bash
 cmake -S . -B build
 cmake --build build
-./build/hello
 ```
 
 ## 运行结果
+
+运行命令：
+
+```bash
+./build/hello
+```
 
 终端输出：
 
